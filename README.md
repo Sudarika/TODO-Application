@@ -2,15 +2,6 @@
 
 TodoApp is a simple and elegant Android application designed to help you manage your daily tasks efficiently. This project demonstrates the use of modern Android development practices including ViewModel, LiveData, RecyclerView, and Room for local database management.
 
-## Table of Contents
-
-- [Features](#features)
-- [Architecture](#architecture)
-- [Usage](#usage)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - Add, edit, and delete tasks
@@ -19,6 +10,13 @@ TodoApp is a simple and elegant Android application designed to help you manage 
 - MVVM architecture
 - Unit and Instrumentation tests
 
+## Installation
+
+- Clone this repository to your local machine.
+- Open the project in Android Studio.
+- Build the project to download the necessary dependencies.
+- Run the app on an Android device or emulator.
+
 ## Architecture
 
 TodoApp follows the MVVM (Model-View-ViewModel) architecture pattern. This ensures a separation of concerns, making the app easier to manage and test.
@@ -26,10 +24,6 @@ TodoApp follows the MVVM (Model-View-ViewModel) architecture pattern. This ensur
 - **Model**: Manages the data of the application.
 - **View**: Displays the data and sends user actions to the ViewModel.
 - **ViewModel**: Acts as a bridge between the Model and the View.
-
-## Setup
-
-To get a local copy of the project up and running, follow these simple steps:
 
 ### Prerequisites
 
